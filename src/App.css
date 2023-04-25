@@ -44,4 +44,11 @@
 .social_display{
   display:flex;
   direction:row;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+@media (min-width:600px){
+  .social_display{
+    margin-left:250px;
+  }
 }

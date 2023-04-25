@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Contact() {
     return (
-        <section id="contact" className="relative">
-            <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-                <div className="sm:w-1 md:w-1/2 rounded-sm overflow-hidden sm:mr-10  flex items-end justify-start relative">
-                    <div class="flex" className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+        <footer id="contact" class="bg-gray-800 text-center text-white dark:bg-neutral-600" >
+            <div className="container px-1 py-50 mx-auto flex sm:flex-nowrap flex-wrap">
+                <div className="rounded-sm overflow-hidden sm:mr-100  flex items-end justify-start relative">
+                    <div class="flex" className="bg-gray-9 relative flex flex-wrap py-6 rounded shadow-md">
                         <div class="flex addresses">
                             <div className="sm:w-1/2 px-6">
                                 <h2 className="title-font font-semibold text-white tracking-widest text-xs">
@@ -31,8 +31,9 @@ export default function Contact() {
                         </div>
                     </div>
                 </div>
+                <hr></hr>
                 <div class="social_display">
-                    <a href="https://www.linkedin.com/in/nitu-pal-95270a194/" role="button" class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+                    <a href="https://www.linkedin.com/in/nitu-pal-95270a194/" target="_blank" role="button" class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-sm focus:shadow-sm focus:outline-none focus:ring-0 active:shadow-sm">
                         {/*linkedin */}
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +47,7 @@ export default function Contact() {
                                 clip-rule="evenodd" />
                         </svg>
                     </a>
-                    <a href="https://github.com/nitupal18" role="button" class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+                    <a href="https://github.com/nitupal18" target="_blank" role="button" class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-sm focus:shadow-sm focus:outline-none focus:ring-0 active:shadow-sm">
                         {/* github */}
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +62,7 @@ export default function Contact() {
                         </svg>
                     </a>
                     {/* instagram */}
-                    <a href="https://www.instagram.com/nitu._.pal/" role="button" class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+                    <a href="https://www.instagram.com/nitu._.pal/" target="_blank" role="button" class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-sm focus:shadow-sm focus:outline-none focus:ring-0 active:shadow-sm">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             class="h-7 w-7"
@@ -74,8 +75,34 @@ export default function Contact() {
                                 clip-rule="evenodd" />
                         </svg>
                     </a>
+                    <a href="https://www.instagram.com/nitu._.pal/" target="_blank" role="button" class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-sm focus:shadow-sm focus:outline-none focus:ring-0 active:shadow-sm">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-7 w-7"
+                            fill="currentColor"
+                            color="#1da1f2"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                                fill-rule="evenodd"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/nitu._.pal/" target="_blank" role="button" class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-sm focus:shadow-sm focus:outline-none focus:ring-0 active:shadow-sm">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-7 w-7"
+                            fill="currentColor"
+                            color="#1877f2"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
+                                fill-rule="evenodd"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
                 </div>
             </div>
-        </section>
+        </footer>
     );
 }
